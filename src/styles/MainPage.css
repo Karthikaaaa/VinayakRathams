@@ -1,0 +1,14 @@
+.mainDiv {
+    margin: 10%;
+    margin-top: 1%;
+}
+.productDiv {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5%;
+}
+.cardsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

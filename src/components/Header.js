@@ -19,8 +19,8 @@ const Header = () => {
                     Vinayak Ratham's and Events is an event management company since 2010, We offer Chariot, Horses, Elephant, Pallakku, Lighting Umbrella, Chendamelam, Kathakali, welcome dances for all kind of functions.
                 </div>
                 <div className="links">
-                    <a href="https://www.youtube.com/@vinayakrathams5685">Vinayak Ratham's YouTube Channel</a>
-                    <a href="https://instagram.com/sundharsridhar3?igshid=YmMyMTA2M2Y=">Vinayak Ratham's Instagram Page</a>
+                    <a href="https://www.youtube.com/@vinayakrathams5685" target="_blank">Vinayak Ratham's YouTube Channel</a>
+                    <a href="https://instagram.com/vinayak_rathams?igshid=YmMyMTA2M2Y=" target="_blank">Vinayak Ratham's Instagram Page</a>
                     <br />                    
                 </div>
                 <div className="contactDiv">

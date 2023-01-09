@@ -2,15 +2,6 @@ import React from "react";
 import logo from '../logo.svg';
 import Header from "./Header";
 import "../styles/MainPage.css";
-import PallakkuCard from "./PallakkuCard";
-import ElephantCard from './ElephantCard';
-import ChariotCard from './ChariotCard';
-import ChandaiCard from './ChendaiCard';
-import HorseCard from './HorseCard';
-import KathakaliCard from './KathakaliCard';
-import KavadiCard from './KavadiCard';
-import UmbrellaCard from './UmbrellaCard';
-import BandCard from './BandCard';
 import {ApplicationDetail} from '../Models/Metadata';
 import Cards from './Cards';
 import Dialog from './Dialog'

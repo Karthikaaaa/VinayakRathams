@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '../logo.svg';
 import Header from "./Header";
 import "../styles/MainPage.css";
 import {ApplicationDetail} from '../Models/Metadata';
@@ -13,7 +12,6 @@ const MainPage = () => {
         // e.preventDefault();
         await setValueState(value)
         await setOnclickDialog(true);
-        console.log("onclick",onclickDialog,valueState);
     }
 return (
     <React.Fragment>
@@ -32,23 +30,19 @@ return (
                         return <div key={index} onClick={(e) => handleOnclick(e, value)}><Cards {...value} /></div>
                     })
                 }
-            {/* <ChariotCard />
-            <PallakkuCard />
-            <UmbrellaCard />
-            <HorseCard />
-            <ElephantCard />
-            <ChandaiCard />
-            <BandCard />
-            <KathakaliCard />
-            <KavadiCard /> */}
             </div>
             
         </div>
+        <br />
+        <div className="contactDiv"><a href="9597508606">Click here to contact us</a></div>
+        <br />
+        <div>We are here to make your events a memorable one!</div>
+        <div>Wishing you all success!!</div>
         </div>
         {
-            onclickDialog && <div><Dialog {...valueState} /></div>
+            onclickDialog && <div><Dialog {...setOnclickDialog} {...onclickDialog} {...valueState} /></div>
         }
-
+    {/* <div>@copywrite 2023 belongs to Vinayak Ratham's and events</div> */}
     </React.Fragment>
 )
 }

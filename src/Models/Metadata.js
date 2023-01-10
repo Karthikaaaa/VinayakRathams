@@ -20,6 +20,8 @@ import HorseVideo from '../Assets/HorseVideo.mp4';
 import DholVideo from '../Assets/DholVideo.mp4';
 import KathakaliVideo from '../Assets/KathakaliVideo.mp4';
 import ElephantVideo from '../Assets/ElephantVideo.mp4';
+import DeivamVideo from '../Assets/DeivamVideo.mp4';
+import KavadiVideo from '../Assets/KavadiVideo.mp4';
 
     export const ApplicationDetail = [
         {
@@ -86,13 +88,13 @@ import ElephantVideo from '../Assets/ElephantVideo.mp4';
             "image" : Kavadi,
             "text" : "We are providing Kerala based Kavadi's for all kind of functions",
             "title": "Kavadi",
-            "carousalImage1": "handleKavadiClick"
+            "carousalImage1": KavadiVideo
         },
         {
             "image" : Deivam,
             "text" : "We are providing the Deivam like makeover to the artists and alligned in the Procession",
             "title": "Deivam",
-            "carousalImage1": "handleDeivamClick"
+            "carousalImage1": DeivamVideo
         }
         
     ]

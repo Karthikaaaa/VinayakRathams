@@ -41,19 +41,19 @@ export default function ScrollDialog(value) {
         aria-describedby="scroll-dialog-description"
       >
         <DialogTitle id="scroll-dialog-title">{value.title}</DialogTitle>
-        <DialogContent dividers={scroll === 'paper'}>
+        <DialogContent>
           <DialogContentText
             id="scroll-dialog-description"
             ref={descriptionElementRef}
             tabIndex={-1}
           >
-            <video src={value.carousalImage1} className='video' autoPlay="true" controls/>
+            <video src={value.carousalImage1}  style={{ maxWidth: "100%", maxHeight: "calc(100vh - 64px)" }}
+ className='video' autoPlay="true" controls/>
             {/* <Carousal {...value} /> */}
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Cancel</Button>
-          <Button onClick={handleClose}>Subscribe</Button>
+          <Button onClick={handleClose}>Close</Button>
         </DialogActions>
       </Dialog>
     </div>

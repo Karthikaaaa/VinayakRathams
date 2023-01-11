@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f1c02ca1.css",
+    "main.js": "/static/js/main.0fd3118d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ElephantVideo.mp4": "/static/media/ElephantVideo.e3b70ce2cab542458003.mp4",
+    "static/media/DeivamVideo.mp4": "/static/media/DeivamVideo.2251fe882b5f04fa370d.mp4",
+    "static/media/WelcomeVideo.mp4": "/static/media/WelcomeVideo.58528e29dd4bda1bc6be.mp4",
+    "static/media/ChariotVideo.mp4": "/static/media/ChariotVideo.fb1e71f637a8065d25c5.mp4",
+    "static/media/ChendaiVideo.mp4": "/static/media/ChendaiVideo.c75ac10def93fbf9b94b.mp4",
+    "static/media/DholVideo.mp4": "/static/media/DholVideo.2019118d29d2092b377e.mp4",
+    "static/media/DecorVideo.mp4": "/static/media/DecorVideo.0455e4f9c3c9f1f8907c.mp4",
+    "static/media/KavadiVideo.mp4": "/static/media/KavadiVideo.617ab4ae7997c375ae45.mp4",
+    "static/media/PallakkuVideo.mp4": "/static/media/PallakkuVideo.a350c5b4c17cf25c09d4.mp4",
+    "static/media/LightingUmbrella.mp4": "/static/media/LightingUmbrella.2781bd4b2e50441b6659.mp4",
+    "static/media/KathakaliVideo.mp4": "/static/media/KathakaliVideo.a09d446d7920e8dcfab3.mp4",
+    "static/media/HorseVideo.mp4": "/static/media/HorseVideo.adf7bde4ad6a10596383.mp4",
+    "static/media/Deivam.jpeg": "/static/media/Deivam.e67edab410e3eb997188.jpeg",
+    "static/media/Kavadi.jpeg": "/static/media/Kavadi.238b0f6eb7561c2e12d5.jpeg",
+    "static/media/Band.jpeg": "/static/media/Band.d8794c8f80cd5b1688c7.jpeg",
+    "static/media/Chandai.jpeg": "/static/media/Chandai.a1fe94e1f51805d56042.jpeg",
+    "static/media/Umbrella.jpeg": "/static/media/Umbrella.8444fbe8f99b21bcef63.jpeg",
+    "static/media/logo.jpeg": "/static/media/logo.ff474a77383fc7d25893.jpeg",
+    "static/media/Pallaku.jpeg": "/static/media/Pallaku.899058480bc5fba22791.jpeg",
+    "static/media/Elephant.jpeg": "/static/media/Elephant.468de57d0cfa14052122.jpeg",
+    "static/media/Chariot.jpeg": "/static/media/Chariot.1eb4d279f425e264dee0.jpeg",
+    "static/media/Horse.jpeg": "/static/media/Horse.831f87a39cff1926dbf2.jpeg",
+    "static/media/WelcomeEntries.jpeg": "/static/media/WelcomeEntries.fa72ea953c4afc1bc0aa.jpeg",
+    "static/media/Kathakali.jpeg": "/static/media/Kathakali.65d8c68af02adb7735c2.jpeg",
+    "static/media/Decor.jpeg": "/static/media/Decor.280d4d76b76e13e50f0e.jpeg",
+    "index.html": "/index.html",
+    "main.f1c02ca1.css.map": "/static/css/main.f1c02ca1.css.map",
+    "main.0fd3118d.js.map": "/static/js/main.0fd3118d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1c02ca1.css",
+    "static/js/main.0fd3118d.js"
+  ]
+}

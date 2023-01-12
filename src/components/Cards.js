@@ -7,9 +7,6 @@ import { CardActionArea } from '@mui/material';
 import Chariot from '../Assets/Chariot.jpeg';
 
 export default function ActionAreaCard(value) {
-  const handleChariotClick = () => {
-    alert('Chariot')
-  }
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>

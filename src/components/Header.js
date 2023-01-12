@@ -6,9 +6,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 const Header = () => {
     return(
         <React.Fragment>
-            <div className="rightAlign">
+            {/* <div className="rightAlign">
                 <AccountCircleIcon />
-            </div>
+            </div> */}
             <div className="headerDiv">
                 <img src={logo} className="vinayakLogo" alt="logo" />
                 <div>

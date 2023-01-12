@@ -7,7 +7,8 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 // import Carousal from './Carousal';
 
-export default function ScrollDialog(value) {
+export default function ScrollDialog(props) {
+  const {valueState : value, setOnclickDialog, onclickDialog} = props
   const [open, setOpen] = React.useState(true);
   const [scroll, setScroll] = React.useState('paper');
 
@@ -17,19 +18,20 @@ export default function ScrollDialog(value) {
   };
 
   const handleClose = () => {
+    setOnclickDialog(false)
     setOpen(false);
   };
 
   const descriptionElementRef = React.useRef(null);
   React.useEffect(() => {
-    if (value.text) {
-      setOpen(true)
+    if (onclickDialog) {
+      setOpen(onclickDialog)
       const { current: descriptionElement } = descriptionElementRef;
       if (descriptionElement !== null) {
         descriptionElement.focus();
       }
     }
-  }, [value.text]);
+  }, [onclickDialog]);
 
   return (
     <div>
@@ -48,7 +50,7 @@ export default function ScrollDialog(value) {
             tabIndex={-1}
           >
             <video src={value.carousalImage1}  style={{ maxWidth: "100%", maxHeight: "calc(100vh - 64px)" }}
- className='video' autoPlay="true" controls/>
+ className='video' autoPlay={true} controls/>
             {/* <Carousal {...value} /> */}
           </DialogContentText>
         </DialogContent>

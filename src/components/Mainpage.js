@@ -34,7 +34,7 @@ return (
             
         </div>
         <br />
-        <div className="contactDiv"><a href="9597508606">Click here to contact us</a></div>
+        <div className="contactDiv">Contact us on 9597508606</div>
         <br />
         <div>We are here to make your events a memorable one!</div>
         <div>Wishing you all success!!</div>

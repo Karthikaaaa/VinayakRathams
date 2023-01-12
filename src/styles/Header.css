@@ -1,7 +1,16 @@
 .vinayakLogo {
     width: 15%;
     float:left;
+    border-radius: 25px 25px 25px 25px;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="vinayakLogo"] {
+      width: 15%;
+      height: 15%;
+      margin-top: 5%;
+    }
+  }
 .headerDiv {
     display: flex;
 }

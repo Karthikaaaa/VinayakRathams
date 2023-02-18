@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f14e93b.css",
-    "main.js": "/static/js/main.0af8dc4b.js",
+    "main.css": "/static/css/main.c69fbd4b.css",
+    "main.js": "/static/js/main.d206c339.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/ElephantVideo.mp4": "/static/media/ElephantVideo.e3b70ce2cab542458003.mp4",
     "static/media/DeivamVideo.mp4": "/static/media/DeivamVideo.2251fe882b5f04fa370d.mp4",
@@ -28,13 +28,15 @@
     "static/media/WelcomeEntries.jpeg": "/static/media/WelcomeEntries.fa72ea953c4afc1bc0aa.jpeg",
     "static/media/Kathakali.jpeg": "/static/media/Kathakali.65d8c68af02adb7735c2.jpeg",
     "static/media/Decor.jpeg": "/static/media/Decor.280d4d76b76e13e50f0e.jpeg",
+    "static/media/InstaLogo.jpg": "/static/media/InstaLogo.0a3ae740c7a70c0b8124.jpg",
+    "static/media/youTube.jpg": "/static/media/youTube.f8848b6e91daa75cf604.jpg",
     "index.html": "/index.html",
-    "main.2f14e93b.css.map": "/static/css/main.2f14e93b.css.map",
-    "main.0af8dc4b.js.map": "/static/js/main.0af8dc4b.js.map",
+    "main.c69fbd4b.css.map": "/static/css/main.c69fbd4b.css.map",
+    "main.d206c339.js.map": "/static/js/main.d206c339.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f14e93b.css",
-    "static/js/main.0af8dc4b.js"
+    "static/css/main.c69fbd4b.css",
+    "static/js/main.d206c339.js"
   ]
 }

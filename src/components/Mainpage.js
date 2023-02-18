@@ -4,6 +4,8 @@ import "../styles/MainPage.css";
 import {ApplicationDetail} from '../Models/Metadata';
 import Cards from './Cards';
 import Dialog from './Dialog'
+import { WhatsApp } from "@mui/icons-material";
+
 
 const MainPage = () => {
     const [onclickDialog, setOnclickDialog] = React.useState(false);
@@ -24,7 +26,7 @@ return (
             <div className="productDiv">
                 Product Details
             </div>
-            <div className="noteDiv">Note: You can click on each product to know more</div>
+            {/* <div className="noteDiv">Note: You can click on each product to know more</div> */}
             <br />
             {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <div className="cardsDiv">

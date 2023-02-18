@@ -4,18 +4,20 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import Chariot from '../Assets/Chariot.jpeg';
+import playButton from '../Assets/playButton.jpg';
+import "../styles/MainPage.css";
 
 export default function ActionAreaCard(value) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
+      <img src={playButton} className="thumbNail" alt="Click here to see us on YouTube" />
         <CardMedia
           component="img"
           height="280"
           image={value.image}
           alt="Chariot"
-        />
+        ></CardMedia>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {value.title}

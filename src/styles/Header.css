@@ -3,21 +3,24 @@
     float:left;
     border-radius: 25px 25px 25px 25px;
 }
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="vinayakLogo"] {
-      width: 15%;
-      height: 15%;
-      margin-top: 5%;
-    }
-  }
+
 .headerDiv {
     display: flex;
 }
+.headerContent {
+    text-align: justify;
+    margin-left: 5%;
+}
+.instaLogo {
+    width: 17%;
+}
+.youTubeLogo {
+    width: 40%;
+}
 .links {
     display: flex;
-    justify-content: space-between;
-    padding-left: 15%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .contactDiv {
     font-weight: bold;
@@ -27,3 +30,25 @@
 .rightAlign {
     float: right;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* [class*="vinayakLogo"] {
+      width: 15%;
+      height: 15%;
+      margin-top: 5%;
+    } */
+    [class*="headerDiv"] {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    [class*="instaLogo"] {
+        width: 50%;
+    }
+    [class*="youTubeLogo"] {
+        width: 100%;
+    }
+    [class*="headerContent"] {
+        margin-left: 0;
+    }
+  }
